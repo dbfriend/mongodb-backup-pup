@@ -1,0 +1,26 @@
+#!/bin/bash
+################################################################################################
+#### Scripname:         mongodb-backup.par
+#### Description:       This is a parameter file which will be called by script mongodb-backup.sh
+################################################################################################
+
+#### Examples
+#### Name of the replicaset
+# REPLICASET=RS1
+#### Location of the mongodump
+# BACKUPDIR="/mnt/mongodbbackup"
+#### Connection string to the mongodb
+# URI="mongodb://backup_admin@myserver1:27017,myserver2:27017,myserver3:27017/?authSource=admin&replicaSet=${REPLICASET}"
+#### Define retention of backups in days
+# RETENTION=32
+#### Location of mongodump
+# MONGODUMP=/bin/mongodump
+#### PW of connecting user
+# PWLOC=MyPassword
+
+REPLICASET=RS1
+BACKUPDIR="/mnt/mongodbbackup"
+URI="mongodb://backup_admin@myserver1:27017,myserver2:27017,myserver3:27017/?authSource=admin&replicaSet=${REPLICASET}"
+RETENTION=14
+MONGODUMP=/bin/mongodump
+PWLOC=MyPassword
