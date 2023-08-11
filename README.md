@@ -55,7 +55,7 @@ mongod@myserver:~ $ crontab -l
 
 ## Script flow
 <p align="center">
-  <img width="460" height="150" src="https://github.com/dbfriend/mongodb-backup/blob/version-1-0/mongodb-backup-flow.png">
+  <img width="460" height="150" src="https://github.com/dbfriend/mongodb-backup-pup/blob/version-1-0/mongodb-backup-flow.png">
 </p>
 
 ## Limitations
